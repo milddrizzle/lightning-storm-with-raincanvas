@@ -1,4 +1,16 @@
-# lightning storm with rain - canvas
+# Lightning Storm
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Nvagelis/pen/yaQGrL](https://codepen.io/Nvagelis/pen/yaQGrL).
+A lightning storm is like nature's disco party, with bolts of electricity dancing across the sky in dazzling fashion.A lightning storm is like nature's disco party, with bolts of electricity dancing across the sky in dazzling fashion.
 
+
+## Demo
+
+https://mild-lightning-storm.web.app/
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MildDrizzle/lightning-storm-with-raincanvas
+```
