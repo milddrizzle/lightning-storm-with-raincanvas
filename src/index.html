@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon"
+        href="favicon.ico" />
+  <title>Ramos Lee | Lightning Storm</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<button class="btn" id="fullscr">Go Fullscreen</button>
+<body>
+<!-- partial:index.partial.html -->
+<body class="thunder">
+  <canvas id="canvas1"></canvas>
+  <canvas id="canvas2"></canvas>
+  <canvas id="canvas3"></canvas>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+  <script>
+    let fullscreen;
+        let fsEnter = document.getElementById('fullscr');
+        fsEnter.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (!fullscreen) {
+                fullscreen = true;
+                document.documentElement.requestFullscreen();
+                fsEnter.innerHTML = "Exit Fullscreen";
+            } else {
+                fullscreen = false;
+                document.exitFullscreen();
+                fsEnter.innerHTML = "Go Fullscreen";
+            }
+        });
+  </script>
+</body>
+</html>
